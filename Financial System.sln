@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{B85FD3F4-86B5-494A-957D-69941EEBB46C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{74BB2984-C334-423F-9516-C92DC24A1852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{27EE3073-C579-4123-86BE-00F6BCF2BB77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{DE127C73-6D4A-47F2-8EF6-9230237320CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{C857F4B7-9CD8-4830-8C88-1D115A5295B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{97C393A5-FE65-48AB-BF28-17A11BCAF1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B85FD3F4-86B5-494A-957D-69941EEBB46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85FD3F4-86B5-494A-957D-69941EEBB46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85FD3F4-86B5-494A-957D-69941EEBB46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85FD3F4-86B5-494A-957D-69941EEBB46C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B85FD3F4-86B5-494A-957D-69941EEBB46C} = {27EE3073-C579-4123-86BE-00F6BCF2BB77}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9478EFEE-B614-4EB9-B3E0-970E095A55EF}
+	EndGlobalSection
+EndGlobal
